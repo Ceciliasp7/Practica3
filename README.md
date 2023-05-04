@@ -4,4 +4,6 @@ Este es el repositorio creado para la práctica 3 de la asignatura Programación
 Nuestro programa está diseñado para 4 personas, que controlan a cada uno de los 4 jugadores del futbolin. El juego consta de dos equipos, el equipo rojo y el equipo azul. Cada equipo está formado por un portero y un delantero. Se trata de que la pelota, que va rebotando en los jugadores y en las paredes, se introduzca en la portería. Hemos reducido el área en la que poder marcar gol al área grande dibujada en el campo.
 Además hemos añadido un contador de tiempo a la partida. Hay una cuenta atrás que empieza en 30 segundos y la partida se finaliza cuando el contador llega a cero.
 
-Hemos subido a este repositorio las imágenes correspondientes al campo de fútbol y a la pelota, y dos archivos con el código: uno llamado 'playerfutbolin.py' que ..... y otro llamado 'salafutbolin.py', que ................ Además hemos incluido un vídeo que muestra lo que realiza nuestro programa cuando se ejecuta.
+Hemos subido a este repositorio las imágenes correspondientes al campo de fútbol y a la pelota, y dos archivos con el código: uno llamado 'playerfutbolin.py' donde se implementan las funciones para envíar comandos y recibe actualizaciones del estado del juego el tiempo real; y otro llamado 'salafutbolin.py', que coordina y gestiona de forma centralizada todo lo que ocurre en el juego, incluyendo la comunicación entre los jugadores y las actualizaciones en el estado del juego.
+
+Además hemos incluido un vídeo que muestra lo que realiza nuestro programa cuando se ejecuta.
